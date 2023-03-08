@@ -1,39 +1,39 @@
 <!--
     tag uri:
     a
-    table (tr th td)
+    ✅table (tr th td)
     div
-    strong
+    ✅strong
     ul
-    ol
+    ✅ol
     form
-    input
+    ✅input
     select
     option
     b
     textarea
     h1(..h6)
     img
-    center
+    center -> html4
     fieldset
     legend
-    p
-    br
+    ✅p
+    ✅br
     span
 
     atribute:
     href
-    name
+    ✅name
     target
-    border
+    ✅border
     ✅colspan
     rowspan
     align
     valign
-    width
+    ✅width
     height
     ✅bgcolor
-    type
+    ✅type
     start
     checked
     disabeled
@@ -48,8 +48,6 @@
     max
     alt
     step
-    height
-    width
     src
     title
 
@@ -63,7 +61,7 @@
 
     <body>
         <table border="1px">
-            <th bgcolor="red">Create an account</th>
+            <th bgcolor="#FF4B4B">Create an account</th>
             <tr>
                 <td>
                     <table border="1px">
@@ -98,16 +96,36 @@
                     </table>
                 </td>  
             </tr>
-           <tr>
-            <td>
-                <table border="1px">
-                    <tr>
-                        <td>dulce</td>
-                        <td>rau</td>
-                    </tr>
-                </table>
-            </td>
-           </tr>
+            <th bgcolor="#FF4B4B" colspan="2">Subscription plans</th>
+            <tr>
+                <td colspan="2">
+                    <table border="1px">
+                        <tr>
+                            <td><p><strong>Enter the other users email that will use the account (leave blank if none)</strong>
+                                <ol>
+                                    <li>Email <input type="text" id="first_user_emai1" size="56px"></li>
+                                    <li>Email <input type="text" id="first_user_emai2" size="56px"></li>
+                                    <li>Email <input type="text" id="first_user_emai3" size="56px"></li>
+                                    <li>Email <input type="text" id="first_user_emai4" size="56px"></li>
+                                </ol>       
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><p><span>Plans</span></p></td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                        </tr>
+                        <tr>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            <td>asd</td>
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
     </body>
  </html>
