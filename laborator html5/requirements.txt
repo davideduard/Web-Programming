@@ -1,0 +1,58 @@
+tag uri:                                                    
+    ✅a
+    ✅table (tr th td)
+    ✅div
+    ✅strong
+    ✅ul
+    ✅ol
+    ✅form
+    ✅input
+    ✅select
+    ✅option
+    ✅b
+    ✅textarea
+    ✅h1(..h6)
+    ✅img
+    center -> html4
+    ✅fieldset
+    ✅legend
+    ✅p
+    ✅br
+    ✅span
+
+atribute:
+    ✅href
+    ✅name
+    ✅target
+    ✅border
+    ✅colspan
+    ✅align
+    valign -> html4
+    ✅width
+    ✅height
+    ✅bgcolor -> html4
+    ✅type
+    ✅start
+    ✅checked
+    ✅disabeled
+    ✅maxlenght
+    ✅readonly
+    ✅size
+    ✅value
+    ✅multiple
+    ✅selected
+    ✅cols
+    ✅rows
+    ✅max
+    ✅alt
+    ✅step
+    ✅src
+    ✅title
+
+cerinte:
+    ✅cel putin 15 controale de tip input
+    ✅controale de tip text, checkbox, radio
+    ✅cel putin 3 tabele din care 3 imbricate
+    ✅minim 4 liste dintre care 2 imbricate
+    ✅elementele listelor trb evidentiate diferit (ex 123, ABC)
+    

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <table title="Sign up form">
+        <tr>
+            <th>Create an account</th>
+        </tr>
+        
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th colspan="2">Personal details</th>
+                    </tr>
+                    <tr>
+                        <td>First Name <input type="text" id="first_name"></td>
+                        <td>Last Name <input type="text" id="last_name"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Address <input type="text" id="address" size="60"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Country <input type="text" id="country" size="23" value="Romania" readonly></td>
+                        <td>Province <input type="text" id="province" size="22"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Email <input type="text" id="email" size="62" maxlength="20"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Password <input type="password" id="password" size="59"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date of birth <input type="date" id="date"></td>
+                        <td>Male <input type="radio" name="gender" checked> Female <input type="radio" name="gender">
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Subscription plans</th>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <p><strong>Enter the other users email that will use the account (leave blank if
+                                    none)</strong>
+                            <ol start="2">
+                                <li>Email <input type="text" id="first_user_emai1" size="56"></li>
+                                <li>Email <input type="text" id="first_user_emai2" size="56"></li>
+                                <li>Email <input type="text" id="first_user_emai3" size="56"></li>
+                                <li>Email <input type="text" id="first_user_emai4" size="56" disabled
+                                        placeholder="Available with family+"></li>
+                            </ol>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <b>Family plan</b>
+                            <ul>
+                                <li>basic video playback
+                                    <ol type="A">
+                                        <li>720p videos</li>
+                                        <li>1 add/video</li>
+                                        <li>Full HD</li>
+                                    </ol>
+                                </li>
+                                <li>up to 4 viewers at one time</li>
+                            </ul>
+
+                        </td>
+                        <td>
+                            <b>Family plan+</b>
+                            <ul>
+                                <li>enhanced video playback
+                                    <ol type="A">
+                                        <li>1080p videos</li>
+                                        <li>add free</li>
+                                        <li>2k resolution</li>
+                                    </ol>
+                                </li>
+                                <li>unlocks the 5th viewer</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            Please select one of the two subscription plans
+                            <select name="plan" id="plan">
+                                <option value="family+" selected>Family+</option>
+                                <option value="family">Family</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Please select the number of months to buy <input type="number" value="1" min="1"
+                                max="12" step="1"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input type="checkbox" checked>By checking the box you agree to a monthly
+                            subscription plan</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">*By clicking submit you agree to our terms and conditions</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit">
+
+    <p>Already have an account? Click here to <a href="log_in.html" target="_self"><b>Login.</b></a></p>
+    <p>If you have any problems, make a ticket <b><a href="help.html" target="_blank">Here.</a></b></p>
+
+    <div>
+        <img src="footer.png" height="400" width="1900" alt="footer">
+    </div>
+</body>
+
+</html>
