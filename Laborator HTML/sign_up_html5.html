@@ -1,6 +1,6 @@
 <!--
     tag uri:
-    a
+    ✅a
     ✅table (tr th td)
     div
     ✅strong
@@ -11,61 +11,61 @@
     select
     option
     b
-    textarea
-    h1(..h6)
+    ✅textarea
+    ✅h1(..h6)
     img
     center -> html4
     fieldset
     legend
     ✅p
     ✅br
-    span
+    ✅span
 
     atribute:
-    href
+    ✅href
     ✅name
-    target
+    ✅target
     ✅border
     ✅colspan
     rowspan
-    align
-    valign
+    ✅align
+    valign -> html4
     ✅width
     height
     ✅bgcolor
     ✅type
-    start
-    checked
-    disabeled
-    maxlenght
+    ✅start
+    ✅checked
+    ✅disabeled
+    ✅maxlenght
     readonly
-    size
+    ✅size
     value
     multiple
     selected
-    cols
-    rows
+    ✅cols
+    ✅rows
     max
     alt
     step
     src
-    title
+    ✅title
 
 -->
 
  <!DOCTYPE html>
  <html>
     <head>
-        <title>Laborator HTML</title>
+        <title>Sign Up</title>
     </head>
 
     <body>
-        <table border="1px">
+        <table border="1px" title="Sign up form">
             <th bgcolor="#FF4B4B">Create an account</th>
             <tr>
                 <td>
                     <table border="1px">
-                        <th colspan="2">Personal details</th>
+                        <th colspan="2" valign="left">Personal details</th>
                         <tr>
                             <td>First Name <input type="text" id="first_name"></td>
                             <td>Last Name <input type="text" id="last_name"></td>
@@ -76,12 +76,12 @@
                         </tr>
 
                         <tr>
-                            <td>Country <input type="text" id="country" size="23px"></td>
+                            <td>Country <input type="text" id="country" size="23px" value="Romania" readonly></td>
                             <td>Province <input type="text" id="province" size="22px"></td>
                         </tr>
 
                         <tr>
-                            <td colspan="2">Email <input type="text" id="email" size="62px"></td>
+                            <td colspan="2">Email <input type="text" id="email" size="62px" maxlength="20"></td>
                         </tr>
 
                         <tr>
@@ -90,7 +90,7 @@
 
                         <tr>
                             <td>Date of birth <input type="date" id="date"></td>
-                            <td>Male <input type="radio" name="gender"> Female <input type="radio" name="gender"></td>
+                            <td>Male <input type="radio" name="gender" checked> Female <input type="radio" name="gender"></td>
                         </tr>
 
                     </table>
@@ -102,30 +102,22 @@
                     <table border="1px">
                         <tr>
                             <td><p><strong>Enter the other users email that will use the account (leave blank if none)</strong>
-                                <ol>
+                                <ol start="2">
                                     <li>Email <input type="text" id="first_user_emai1" size="56px"></li>
                                     <li>Email <input type="text" id="first_user_emai2" size="56px"></li>
                                     <li>Email <input type="text" id="first_user_emai3" size="56px"></li>
-                                    <li>Email <input type="text" id="first_user_emai4" size="56px"></li>
+                                    <li>Email <input type="text" id="first_user_emai4" size="56px" disabled placeholder="Not supported yet"></li>
                                 </ol>       
                         </tr>
                         <tr>
-                            <td rowspan="2"><p><span>Plans</span></p></td>
-                            <td>asd</td>
-                            <td>asd</td>
-                            <td>asd</td>
-                            <td>asd</td>
-                        </tr>
-                        <tr>
-                            <td>asd</td>
-                            <td>asd</td>
-                            <td>asd</td>
-                            <td>asd</td>
-                            
+                            <td><p><span>Plans</span></p></td>
                         </tr>
                     </table>
                 </td>
             </tr>
         </table>
+
+        <p>Already have an account? Click here to <a href="log_in_html5.html" target="_self"><b>Login.</b></a></p>
+        <p>If you have any problems, make a ticket <b><a href="help_html5.html" target="_blank">Here.</a></b></p>
     </body>
  </html>
