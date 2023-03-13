@@ -1,21 +1,21 @@
 tag uri:                                                    
     ✅a
     ✅table (tr th td)
-    div
+    ✅div
     ✅strong
     ul
     ✅ol
     ✅form
     ✅input
-    select
-    option
-    b
+    ✅select
+    ✅option
+    ✅b
     ✅textarea
     ✅h1(..h6)
-    img
+    ✅img
     center -> html4
-    fieldset
-    legend
+    ✅fieldset
+    ✅legend
     ✅p
     ✅br
     ✅span
@@ -30,7 +30,7 @@ atribute:
     ✅align
     valign -> html4
     ✅width
-    height
+    ✅height
     ✅bgcolor
     ✅type
     ✅start
@@ -45,9 +45,9 @@ atribute:
     ✅cols
     ✅rows
     max
-    alt
+    ✅alt
     step
-    src
+    ✅src
     ✅title
 
 cerinte:
