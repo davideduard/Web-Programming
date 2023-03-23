@@ -1,0 +1,115 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#facebook {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -9px -90px;
+}
+
+#facebook:hover {
+    background: url(spritesheet.png) -9px -7px;
+}
+
+#dots {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -92px -90px;
+}
+
+#dots:hover {
+    background: url(spritesheet.png) -92px -7px;
+}
+
+#ball {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -178px -90px;
+}
+
+#ball:hover {
+    background: url(spritesheet.png) -178px -7px;
+}
+
+#google {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -258px -90px;
+}
+
+#google:hover {
+    background: url(spritesheet.png) -258px -7px;
+}
+
+#linkedin {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -343px -90px;
+}
+
+#linkedin:hover {
+    background: url(spritesheet.png) -343px -7px;
+}
+
+#pinterest {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -428px -90px;
+}
+
+#pinterest:hover {
+    background: url(spritesheet.png) -428px -7px;
+}
+
+#wifi {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -508px -90px;
+}
+
+#wifi:hover {
+    background: url(spritesheet.png) -508px -7px;
+}
+
+#skype {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -595px -90px;
+}
+
+#skype:hover {
+    background: url(spritesheet.png) -595px -7px;
+}
+
+#twitter {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -677px -90px;
+}
+
+#twitter:hover {
+    background: url(spritesheet.png) -677px -7px;
+}
+
+#vimeo {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -764px -90px;
+}
+
+#vimeo:hover {
+    background: url(spritesheet.png) -764px -7px;
+}
+
+#youtube {
+    width: 70px;
+    height: 70px;
+    background: url(spritesheet.png) -846px -90px;
+}
+
+#youtube:hover {
+    background: url(spritesheet.png) -846px -7px;
+}
