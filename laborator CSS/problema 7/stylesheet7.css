@@ -1,0 +1,62 @@
+.dialog {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.bubble {
+    height: auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: montserrat;;
+}
+
+.left-point {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 10vh solid white;
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    left: -10%;
+    top:1%;
+    transform: rotate(70deg);
+}
+
+body {
+    background: #313031;
+}
+
+#negru {
+    width: 180px;
+    height: 180px;
+    background: url('sprites.png') -5px -5px;
+}
+
+#negru:hover {
+    background: url('sprites.png') -5px -240px;
+}
+
+
+#chinez {
+    width: 190px;
+    height: 230px;
+    background: url('sprites.png') -200px -5px;
+}
+
+#chinez:hover {
+    background: url('sprites.png') -200px -235px;
+}
