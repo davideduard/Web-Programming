@@ -34,7 +34,7 @@ footer {
 .list li {
     list-style: none;
     display: inline-block;
-    padding-right: 18vw;
+    padding-right: 16vw;
     padding-left: 28px;
     border-right: 2px solid;
 }

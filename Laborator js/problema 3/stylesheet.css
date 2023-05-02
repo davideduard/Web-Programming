@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body{
+    background: #d4d6d5;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    box-sizing: content-box;
+    background-color: #b69b7d;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+    gap: 8px;
+}
+.item{
+    width: 100px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.item.revealed .card{
+    transform: rotateX(180deg);
+}
+
+.front, .back{
+    position: absolute;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    font-size: 40px;
+    font-weight: 500;
+    transition: all 0.2 ease;
+}
+
+.front{    
+    background-color: #d4d6d5;
+    transform: rotateX(180deg);
+}
+
+.back{
+    background-color: #d4d6d5;
+}   
+
+.item[solved=true] .front{
+    background-color: #3f5843;
+    filter: brightness(140%);
+}

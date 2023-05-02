@@ -9,7 +9,7 @@
 .message {
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 90px;
 }
 
 .bubble {
@@ -17,6 +17,7 @@
     width: 400px;
     background-color: white;
     border-radius: 20px;
+    position: relative;
 }
 
 p {
@@ -27,12 +28,12 @@ p {
 .left-point {
     width: 0;
     height: 0;
-    position: relative;
+    position: absolute;
     border-top: 10vh solid white;
     border-left: 2vh solid transparent;
     border-right: 2vh solid transparent;
+    top: 40%;
     left: -10%;
-    top:1%;
     transform: rotate(70deg);
 }
 
